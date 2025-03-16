@@ -1,0 +1,24 @@
+site_name: 一步一步学习TensorFlow
+use_directory_urls: false
+
+theme:
+  name: material  
+  features: 
+    - content.code.copy  # 允许代码复制  
+    - content.code.annotate
+
+plugins:
+    - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true  # 启用代码行号
+      linenums_style: table
+  - pymdownx.superfences
+
+extra:
+  generator: false
+
+nav:
+  - 关于项目: index.md 
+  - 安装: install/install.md
