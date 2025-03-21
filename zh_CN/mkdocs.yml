@@ -21,4 +21,8 @@ extra:
 
 nav:
   - 关于项目: index.md 
-  - 安装: install/install.md
+  - 安装: 
+      安装TensorFlow: install/install.md
+      安装DeeSeek: install/localDeepseek.md
+  - 使用: 
+      快速入门: quickstart/start.md
